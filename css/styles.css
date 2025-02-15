@@ -1,0 +1,77 @@
+*{
+    background-color:rgb(255, 186, 0);
+    font-family: Titillium Web, Source Sans 3, Verdana, Tahoma, sans-serif;
+}
+.source-sans-3-Sans3 {
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.titillium-web-extralight {
+    font-family: "Titillium Web", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.titillium-web-light {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.titillium-web-regular {
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.titillium-web-semibold {
+    font-family: "Titillium Web", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.titillium-web-bold {
+    font-family: "Titillium Web", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.titillium-web-black {
+    font-family: "Titillium Web", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+h1{
+    font-family: Titillium Web;
+    text-align: center;
+    font: bold;
+    font-size: 2.5em;
+}
+body{
+    font-family: Titillium Web;
+    font-weight:500;
+    font-size:1.5em;
+}
+nav{
+    font-family: Titillium Web;
+    text-align: center;
+    margin-top:20px;
+    padding:10px;
+}
+nav a {
+    text-decoration: none; /* Remove the default underline from links */
+    color: rgb(226, 226, 226); /* Make the text color white */
+    padding: 10px 15px; /* Add padding inside each link */
+    background: #333; /* Set the background color of each link */
+    border-radius: 5px; /* Round the corners of each link */
+    display: inline-block; /* Ensure the links align properly in the navbar */
+}
+nav a:hover{
+    background: #555;
+}
+hr{
+    border: 2px solid black;
+}
